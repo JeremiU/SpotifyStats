@@ -1,0 +1,6 @@
+node_modules/
+.idea/
+.DS_Store
+
+# Sensitive Testing Data
+endsong_0.json

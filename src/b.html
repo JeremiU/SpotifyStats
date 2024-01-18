@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalistic Footer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .footer {
+      background-color: #f8f9fa; /* Light gray background */
+      color: #495057; /* Dark gray text */
+      text-align: center;
+      padding: 10px 0; /* Padding around the footer */
+      font-size: 0.9em;
+    }
+    .footer a {
+      color: #007bff; /* Link color */
+      text-decoration: none;
+    }
+    .footer span:not(:last-child)::after {
+      content: " • "; /* Dot separator */
+      padding: 0 10px; /* Spacing around the dots */
+    }
+  </style>
+</head>
+<body>
+
+<footer class="footer">
+  <span>Jeremi Urbaniak</span>
+  <span><a href="mailto:email@example.com">Email</a></span>
+  <span><a href="https://www.linkedin.com/in/jeremiurbaniak">LinkedIn</a></span>
+  <span>© Copyright 2023</span>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

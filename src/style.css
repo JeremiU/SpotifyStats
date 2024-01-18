@@ -1,0 +1,106 @@
+.btn-lightblue {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-lightblue:hover {
+    background-color: #add8e6;
+}
+
+.container-upload {
+    height: calc(100vh - 56px); /* Adjust height to account for navbar and footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* If you have other styles for jumbotron or footer, make sure they are consistent with this layout */
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 1rem; /* Adjust as needed */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide the scrollbar */
+}
+
+.navbar {
+    /* Assuming a fixed height for the navbar; adjust as per your design */
+    height: 50px;
+}
+
+.footer {
+    /* Assuming a fixed height for the footer; adjust as per your design */
+    height: 50px;
+    color: #495057; /* Dark gray text */
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.footer-elem:not(:last-child)::after {
+    content: " • "; /* Dot separator */
+    padding: 0 10px; /* Spacing around the dots */
+}
+
+.container-upload {
+    /* Remaining height: 100vh - navbar - footer */
+    height: calc(100vh - 100px); /* Adjust the 100px to the combined height of your navbar and footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-lightgray {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-lightgray:hover {
+    background-color: #d3d3d3;
+}
+
+.btn-lightblue {
+    background-color: lightblue;
+    color: white;
+}
+
+.btn-lightblue:hover {
+    background-color: #add8e6;
+}
+
+.btn-lightgray {
+    background-color: lightgray;
+    color: black;
+}
+
+.btn-lightgray:hover {
+    background-color: #d3d3d3;
+}
+
+#upload-container h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; /* Adjust this value for the desired space */
+}
+
+#upload-container .button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px; /* Adjust this value for the desired space */
+}
